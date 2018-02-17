@@ -1,0 +1,215 @@
+
+.ad-container,
+.bg-image{
+    height: 250px;
+}
+
+.body-click {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 250px;
+    width: 300px;
+    z-index: 3;
+}
+
+.ad-container {
+    position: relative;
+    margin: 0 auto;
+    border: 0.5px solid #ccc;
+    overflow: hidden;
+    box-shadow: #ccc 4px 3px 4px;
+    background-color: #817d7e;
+    width: 300px;
+}
+
+.bg-image {
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: -300px;
+    background: url('../images/pennywise-1.jpg') no-repeat;
+    animation: bg 2s ease-in-out forwards;
+    -moz-animation: bg 2s ease-in-out forwards;
+    -ms-animation: bg 2s ease-in-out forwards;
+    -o-animation: bg 2s ease-in-out forwards;
+    -webkit-animation: bg 2s ease-in-out forwards;
+    width: 600px;
+    opacity: 0;
+}
+
+@keyframes bg {
+    0% { left: -300px; opacity: 0;}
+    100% { left: 0px; opacity:1; }
+}
+
+@-moz-keyframes bg {
+    0% { left: -300px; opacity: 0;}
+    100% { left: 0px; opacity:1; }
+}
+
+@-o-keyframes bg {
+    0% { left: -300px; opacity: 0;}
+    100% { left: 0px; opacity:1; }
+}
+
+@-ms-keyframes bg {
+    0% { left: -300px; opacity: 0;}
+    100% { left: 0px; opacity:1; }
+}
+
+@-webkit-keyframes bg {
+    0% { left: -300px; opacity: 0;}
+    100% { left: 0px; opacity:1; }
+}
+
+.logo,
+.text-1{
+    z-index: 2;
+}
+
+.text-1 {
+    color: #AE1B0A;
+    font-size: 24px;
+    text-shadow: #817d7e 4px 3px 4px;
+    position: absolute;
+    left: 10px;
+    top: 80px;
+    opacity: 0;
+    animation: test1 1s 3s  ease-in-out forwards;
+    -moz-animation: test1 1s 3s ease-in-out forwards;
+    -ms-animation: test1 1s  3s ease-in-out forwards;
+    -o-animation: test1 1s 3s ease-in-out forwards;
+    -webkit-animation: test1  1s 3s ease-in-out forwards;
+}
+
+@keyframes test1 {
+    0% { left: 100px; opacity: 0;}
+    100% { left: 10px; opacity:1; }
+}
+
+@-moz-keyframes test1 {
+    0% { left: 100px; opacity: 0;}
+    100% { left: 10px; opacity:1; }
+}
+
+@-o-keyframes test1 {
+    0% { left: 100px; opacity: 0;}
+    100% { left: 10px; opacity:1; }
+}
+
+@-ms-keyframes test1 {
+    0% { left: 100px; opacity: 0;}
+    100% { left: 10px; opacity:1; }
+}
+
+@-webkit-keyframes test1 {
+    0% { left: 100px; opacity: 0;}
+    100% { left: 10px; opacity:1; }
+}
+
+.logo {
+    background: url('../images/IT_logo.svg') no-repeat;
+    position: absolute;
+    width: 100px;
+    height: 65px;
+    background-size: contain;
+    top: 10px;
+    left: 100px;
+    opacity: 0;
+    animation: logo 1s 2s  ease-in-out forwards;
+    -moz-animation: logo 1s 2s ease-in-out forwards;
+    -ms-animation: logo 1s  2s ease-in-out forwards;
+    -o-animation: logo 1s 2s ease-in-out forwards;
+    -webkit-animation: logo 1s 2s ease-in-out forwards;
+}
+
+@keyframes logo {
+    0% { left: 100px; opacity: 0;}
+    100% { left: -13px; opacity:1; }
+}
+
+@-moz-keyframes logo {
+    0% { left: 100px; opacity: 0;}
+    100% { left: -13px; opacity:1; }
+}
+
+@-o-keyframes logo {
+    0% { left: 100px; opacity: 0;}
+    100% { left: -13px; opacity:1; }
+}
+
+@-ms-keyframes logo {
+    0% { left: 100px; opacity: 0;}
+    100% { left: -13px; opacity:1; }
+}
+
+@-webkit-keyframes logo {
+    0% { left: 100px; opacity: 0;}
+    100% { left: -13px; opacity:1; }
+}
+
+
+.cta {
+    z-index: 3;
+    position: absolute;
+    right: 10px;
+    bottom: -100px;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 1s ease-in-out;
+    color: white;
+    background-color: #AE1B0A;
+    text-decoration: none;
+    opacity: 0;
+    animation: cta 1s 4s  ease-in-out forwards;
+    -moz-animation: cta 1s 4s ease-in-out forwards;
+    -ms-animation: cta 1s  4s ease-in-out forwards;
+    -o-animation: cta 1s 4s ease-in-out forwards;
+    -webkit-animation: cta 1s 4s ease-in-out forwards;
+}
+
+@keyframes cta {
+    0% { bottom: -100px; opacity: 0;}
+    100% { bottom: 10px; opacity:1; }
+}
+
+@-moz-keyframes cta {
+    0% { bottom: -100px; opacity: 0;}
+    100% { bottom: 10px; opacity:1; }
+}
+
+@-o-keyframes cta {
+    0% { bottom: -100px; opacity: 0;}
+    100% { bottom: 10px; opacity:1; }
+}
+
+@-ms-keyframes cta {
+    0% { bottom: -100px; opacity: 0;}
+    100% { bottom: 10px; opacity:1; }
+}
+
+@-webkit-keyframes cta {
+    0% { bottom: -100px; opacity: 0;}
+    100% { bottom: 10px; opacity:1; }
+}
+
+
+.cta:hover {
+    transition: background-color 1s ease-in-out;
+    background-color: white;
+    color: #AE1B0A;
+}
+
+
+.border {
+    border: 1px solid #AE1B0A;
+    box-sizing: border-box;
+    pointer-events: none;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    z-index: 9;
+}
