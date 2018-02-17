@@ -10,14 +10,14 @@
     left: 0px;
     height: 250px;
     width: 300px;
-    z-index: 3;
+    index: 3;
 }
 
 .ad-container {
     position: relative;
     margin: 0 auto;
     border: 0.5px solid #ccc;
-    overflow: hidden;
+    overflow: ????;
     box-shadow: #ccc 4px 3px 4px;
     background-color: #817d7e;
     width: 300px;
@@ -29,11 +29,11 @@
     top: 0px;
     left: -300px;
     background: url('../images/pennywise-1.jpg') no-repeat;
-    animation: bg 2s ease-in-out forwards;
-    -moz-animation: bg 2s ease-in-out forwards;
-    -ms-animation: bg 2s ease-in-out forwards;
-    -o-animation: bg 2s ease-in-out forwards;
-    -webkit-animation: bg 2s ease-in-out forwards;
+    animation: bg_ 2s ease-in-out forwards;
+    -moz-animation: bg_ 2s ease-in-out forwards;
+    -ms-animation: bg_ 2s ease-in-out forwards;
+    -o-animation: bg_ 2s ease-in-out forwards;
+    -webkit-animation: bg_ 2s ease-in-out forwards;
     width: 600px;
     opacity: 0;
 }
@@ -85,33 +85,33 @@
     -webkit-animation: test1  1s 3s ease-in-out forwards;
 }
 
-@keyframes test1 {
+@keyframes _test1 {
     0% { left: 100px; opacity: 0;}
     100% { left: 10px; opacity:1; }
 }
 
-@-moz-keyframes test1 {
+@-moz-keyframes _test1 {
     0% { left: 100px; opacity: 0;}
     100% { left: 10px; opacity:1; }
 }
 
-@-o-keyframes test1 {
+@-o-keyframes _test1 {
     0% { left: 100px; opacity: 0;}
     100% { left: 10px; opacity:1; }
 }
 
-@-ms-keyframes test1 {
+@-ms-keyframes _test1 {
     0% { left: 100px; opacity: 0;}
     100% { left: 10px; opacity:1; }
 }
 
-@-webkit-keyframes test1 {
+@-webkit-keyframes _test1 {
     0% { left: 100px; opacity: 0;}
     100% { left: 10px; opacity:1; }
 }
 
 .logo {
-    background: url('../images/IT_logo.svg') no-repeat;
+    background: url('images/IT_logo.svg') no-repeat;
     position: absolute;
     width: 100px;
     height: 65px;
@@ -173,27 +173,27 @@
     -webkit-animation: cta 1s 4s ease-in-out forwards;
 }
 
-@keyframes cta {
+@keyframes  {
     0% { bottom: -100px; opacity: 0;}
     100% { bottom: 10px; opacity:1; }
 }
 
-@-moz-keyframes cta {
+@-moz-keyframes  {
     0% { bottom: -100px; opacity: 0;}
     100% { bottom: 10px; opacity:1; }
 }
 
-@-o-keyframes cta {
+@-o-keyframes  {
     0% { bottom: -100px; opacity: 0;}
     100% { bottom: 10px; opacity:1; }
 }
 
-@-ms-keyframes cta {
+@-ms-keyframes  {
     0% { bottom: -100px; opacity: 0;}
     100% { bottom: 10px; opacity:1; }
 }
 
-@-webkit-keyframes cta {
+@-webkit-keyframes  {
     0% { bottom: -100px; opacity: 0;}
     100% { bottom: 10px; opacity:1; }
 }
@@ -210,10 +210,10 @@
     border: 1px solid #AE1B0A;
     box-sizing: border-box;
     pointer-events: none;
-    width: 300px;
+    width: 300;
     height: 250px;
     position: absolute;
     top: 0px;
     left:0px;
-    z-index: 9;
+    z-index: 9px;
 }
